@@ -1,6 +1,6 @@
 {
   "name": "ng-log-pretty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A decorator for Angular's $log service that adds a \"pretty\" method that will pretty print XML, JSON, CSS, and SQL.",
   "main": "angular-log-pretty.js",
   "scripts": {
