@@ -1,0 +1,24 @@
+{
+  "name": "ng-log-pretty",
+  "version": "1.0.0",
+  "authors": [
+    "Mike Tierney <mike.tierney@intridea.com>"
+  ],
+  "description": "A decorator for Angular's $log service that adds a \"pretty\" method that will pretty print XML, JSON, CSS, and SQL.",
+  "main": "dist/ng-log-pretty.min.js",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.3.14",
+    "angular-mocks": "~1.3.14"
+  }
+}
