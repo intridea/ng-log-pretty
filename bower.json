@@ -5,7 +5,10 @@
     "Mike Tierney <mike.tierney@intridea.com>"
   ],
   "description": "A decorator for Angular's $log service that adds a \"pretty\" method that will pretty print XML, JSON, CSS, and SQL.",
-  "main": "dist/ng-log-pretty.min.js",
+  "main": [
+    "dist/vkbeautify.min.js",
+    "dist/ng-log-pretty.min.js"
+  ],
   "keywords": [
     "angular"
   ],
