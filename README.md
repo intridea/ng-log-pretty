@@ -4,6 +4,16 @@ A decorator for Angular's `$log` service that creates a `pretty` method for gene
 
 ## Usage
 
+First, add both ng-log-pretty and [vkbeautify]() to your application:
+
+```html
+<!-- index.html -->
+<script src="/bower_components/ng-log-pretty/dist/vkbeautify.min.js"></script>
+<script src="/bower_components/ng-log-pretty/dist/ng-log-pretty.min.js"></script>
+```
+
+Then call it from within your application:
+
 ```javascript
 var app = angular
   .module("myApp", ["ng-log-pretty"])
